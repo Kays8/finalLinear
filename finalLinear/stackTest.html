@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Stack Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div id="status">
+    <h2>Status : <span id="is-empty">Empty</span></h2>
+    <h2>Quantity : <span id="is-full">0</span></h2>
+    <h2>Count : <span id="count"></span></h2>
+</div>
+
+<!----- Section ------->
+<section>
+    <div id="stack-container">
+        <h1>GOOGLE </h1>
+    <!-- Stack Blocks -->
+    <div class="stack-block">
+        <!-- Manager -->
+        <div class="manager" draggable="true" id="01">
+            <img src="box.png" width="50px" height="50px" alt="">
+            <p>MANAGER</p>
+        </div>
+    </div>
+
+</div>
+
+<div id="stack-container">
+    <h1>NETFLIX </h1>
+    <!-- Stack Blocks -->
+    <div class="stack-block">
+        <!-- Manager -->
+        <div class="manager" draggable="true" id="02">
+            <img src="box.png" width="50px" height="50px" alt="">
+            <p>MANAGER</p>
+        </div>
+    </div>
+
+</div>
+
+<div id="stack-container">
+    <h1>APPLE </h1>
+    <!-- Stack Blocks -->
+    <div class="stack-block">
+        <!-- Manager -->
+        <div class="manager" draggable="true" id="03">
+            <img src="box.png" width="50px" height="50px" alt="">
+            <p>MANAGER</p>
+        </div>
+    </div>
+
+</div>
+
+<div id="stack-container">
+    <h1>XIAOMII </h1>
+    <!-- Stack Blocks -->
+    <div class="stack-block">
+        <!-- Manager -->
+        <div class="manager" draggable="true" id="04">
+            <img src="box.png" width="50px" height="50px" alt="">
+            <p>MANAGER</p>
+
+        </div>
+    </div>
+
+</div>
+
+    <div id="block-container">
+       
+        <!-- Apprentice -->
+        <div class="apprentice" draggable="true" id="01">
+            <img src="box2.png" width="50px" height="50px" alt="">
+            <p>APPRENTICE</p>
+            <a>GOOGLE </a>
+        </div>
+
+        
+        <!-- Apprentice -->
+        <div class="apprentice" draggable="true" id="02">
+            <img src="box2.png" width="50px" height="50px" alt="">
+            <p>APPRENTICE</p>
+            <a>NEXFLIX </a>
+        </div>
+
+        
+        <!-- Apprentice -->
+        <div class="apprentice" draggable="true" id="03">
+            <img src="box2.png" width="50px" height="50px" alt="">
+            <p>APPRENTICE</p>
+            <a>APPLE </a>
+        </div>
+
+        
+        <!-- Apprentice -->
+        <div class="apprentice" draggable="true" id="04">
+            <img src="box2.png" width="50px" height="50px" alt="">
+            <p>APPRENTICE</p>
+            <a>XIAOMII </a>
+            
+        </div>
+
+        
+    </div>
+</section>
+
+<nav>
+    <button id="peek">Check 
+
+    </button>
+    
+</nav>
+   
+<script src="scriptTest.js"></script>
+</body>
+</html>
